@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void minandmax(int *a){
+void minmax(int *a){
 //changing *min,*max will effect outside also
 	
 //	*min = 1;
@@ -28,6 +28,6 @@ int main(){
 	for(i=0;i<5;i++){
 		cin>>a[i];
 	}
-	minandmax(a);
+	minmax(a);
 	return 0;
 }
